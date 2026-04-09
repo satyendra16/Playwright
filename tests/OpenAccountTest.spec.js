@@ -72,7 +72,7 @@ test.describe.parallel('Open New Account Tests', () => {
     
     // Get and verify new account number is generated
     const newAccountNumber = await openAccountPage.getNewAccountNumber()
-    expect(newAccountNumber).toBeTruthy()
+    expect(newAccountNumber).toBeTruthy
   })
 
 })
